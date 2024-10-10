@@ -1,5 +1,5 @@
 // Binding of Variables and Methods Togeather into A Single Unit -> Class is Called Encapsunation
-// Data is only accebilew By Class Methods
+// Data is only accebile By Class Methods
 
 #include<iostream>
 using namespace std;
