@@ -9,8 +9,8 @@ int main(){
     v.push_back(3);
     v.push_back(2);
     // on usig pushback if vector is full then its capacity doubles if not then capacity reamisn same
-    cout<<v.capacity()<<endl; // To print the capacity of the vector 
-    cout<<v.size()<<endl; // to print the size of the array 
+    cout<<v.capacity()<<endl; // To print the capacity of the vector - capacity tell show much space is assigned to array
+    cout<<v.size()<<endl; // to print the size of the array - size tells us how many spaces are filled
 
     //if you want to update / access
     v[0] = 88;
@@ -25,6 +25,7 @@ int main(){
     for(int i=0;i<v.size();i++){
         cout<<v[i]<<" ";
     }
+    // To remove full vector use v.clear()
 } 
 // Vectors are passed to function by value . Each time you pass a new vector is created which is similar    
-// To pass a vector to the function use like this    display(vector<int>& a)
+// To pass a vector to the function use like this  Eg:  display(vector<int>& a)
