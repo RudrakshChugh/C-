@@ -18,7 +18,7 @@ int main(){
     int **p1 = &ptr;
     cout<<x<<endl;
     cout<<*ptr<<endl;
-    cout<<**p1<<endl;  // &x,*ptr,*p1 These three represent the same thing
+    cout<<**p1<<endl;  // &x,*ptr,**p1 These three represent the same thing
 
     // To Pass address of array to pointer then
     int arr[] = {1,2,3,4,5};
