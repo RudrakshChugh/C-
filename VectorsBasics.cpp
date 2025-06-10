@@ -2,7 +2,7 @@
 #include<Vector>
 using namespace std;
 int main(){
-    vector<int> v; // you need not ot mention size of vector
+    vector<int> v; // you need not to mention size of vector
     // Inserting /Input do not use []
     v.push_back(5);
     v.push_back(4);
